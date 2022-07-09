@@ -1,16 +1,12 @@
 ### MS.Jessica 
 
-### Multi Device  [ VIP ONLY ]  Unlimited Version (24 hors Activation )
+### Multi Device  [ ❑ 𝗩𝗜𝗣 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 ❑ ]  Unlimited Version (24 hors Activation )
 
 
 
 <img src="https://telegra.ph/file/57e0679dc28177770f449.jpg" alt="nz" width="350"/>
 </p>
 
->╭──────────╮
-----
-│ ❑ 𝗝𝗘𝗦𝗦𝗜 𝗩𝗜𝗣 ❑ │
- ╰──────────╯
 
 > [Automated Multi Device whatsapp bot created](https://github.com/whiteshadowofficial) by [Mr.White Shadow](https://github.com/whiteshadowofficial)
 
