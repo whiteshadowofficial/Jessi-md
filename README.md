@@ -8,7 +8,7 @@
 </p>
 
 >╭──────────╮
- │ ❑ 𝗝𝗘𝗦𝗦𝗜 𝗩𝗜𝗣 ❑ │
+> │ ❑ 𝗝𝗘𝗦𝗦𝗜 𝗩𝗜𝗣 ❑ │
  ╰──────────╯
 
 > [Automated Multi Device whatsapp bot created](https://github.com/whiteshadowofficial) by [Mr.White Shadow](https://github.com/whiteshadowofficial)
