@@ -12,7 +12,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/whiteshadowofficial/Jessi-md.git"
+        "url": "git+https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2.git"
     },
     "keywords": [
         "md-bot"
@@ -20,9 +20,9 @@
     "author": "White Shadow",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/whiteshadowofficial/Jessi-mdissues"
+        "url": "https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2#issues"
     },
-    "homepage": "https://github.com/whiteshadowofficial/Jessi-md#readme",
+    "homepage": "https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2#readme",
     "devDependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
         "@hapi/boom": "^10.0.1",
