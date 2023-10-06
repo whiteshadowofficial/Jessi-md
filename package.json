@@ -4,31 +4,31 @@
     "description": "Jessi is a WhatsApp multiDevice Bot based on A17 and Baileys written in Javascript.",
     "main": "index.js",
     "directories": {
-        "lib": "lib"
+    "lib": "lib"
     },
     "scripts": {
-        "start": "node index.js",
-        "test": "node index.js"
+    "start": "node index.js",
+    "test": "node index.js"
     },
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2.git"
+    "type": "git",
+    "url": "git+https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2.git"
     },
     "keywords": [
-        "md-bot"
+    "md-bot"
     ],
     "author": "White Shadow",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2#issues"
+     "url": "https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2#issues"
     },
     "homepage": "https://github.com/whiteshadowofficial/Jessi-whatsapp-bot-md2#readme",
     "devDependencies": {
-        "@adiwajshing/keyed-db": "^0.2.4",
-        "@hapi/boom": "^10.0.1",
-        "jimp": "^0.16.13",
-        "pino": "^7.0.5",
-        "qrcode-terminal": "^0.12.0"
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+    "jimp": "^0.16.13",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0"
     },
     "dependencies": {
         "@adiwajshing/keyed-db": "^0.2.4",
@@ -80,7 +80,7 @@
         "mathjs": "^9.4.4",
         "minecraft-query": "^1.0.13",
         "moment-timezone": "^0.5.34",
-        "mongoose": "^6.2.1",
+        "mongoose": "^7.5.3",
         "mumaker": "^2.0.0",
         "node-cron": "^3.0.0",
         "node-fetch": "^2.6.1",
@@ -112,5 +112,5 @@
         "yargs": "^17.7.2",
         "youtube-yts": "^2.0.0",
         "youtubedl-core": "^4.11.5"
+      }
     }
-}
