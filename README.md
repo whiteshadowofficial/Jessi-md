@@ -18,7 +18,7 @@ Qr Setup
 
 💫 Heroku
 
-> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/main/heroku.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/heroku.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
 
 
 💫 Mogenius
@@ -27,16 +27,15 @@ Qr Setup
 
 💫 Codespaces 
 
-> <a href="
-https://github.com/whiteshadowofficial/Jessi-md/blob/main/codespaces.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/codespaces.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
 
 💫 Termux
 
-> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/main/termux.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/termux.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
 
 💫 Windows Cmd & Vs
 
-> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/main/windows.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+> <a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/windows.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
 
 
 
