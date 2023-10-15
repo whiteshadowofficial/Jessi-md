@@ -6,6 +6,15 @@
 
 > Bot Written By @Mr.White Shadow with Baileys. Jessi has a lot of Features/Commands Including Voice Chat [ AI ]
 .
+>
+> ![repo views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/whiteshadowofficial/Jessi-md&count_bg=%2379C83D&title_bg=%23555555&icon=gitpod.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false)
+
+![forks](https://img.shields.io/github/forks/whiteshadowofficial/Jessi-md?label=Forks&style=social)
+
+![stars](https://img.shields.io/github/stars/whiteshadowofficial/Jessi-md?style=social)
+
+<br>
+
 ----
 
 ### ⏱️ Jessi-md Installation 
