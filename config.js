@@ -47,11 +47,11 @@ global.statusseen = true;                 //This is the new variable for control
 
 
 //
-global.Owner = ["94779529221","94757534153"];         //If you want singal number so global.Owner = ['94779529221'] Change into your number.
-global.OwnerNumber = ["94757534153","94779529221"];   //If you want singal number so global.Owner = ['94779529221'] Change into your number.
-global.ownertag = ["94779529221"];
-global.OwnerName = "Mr.White Shadow";
-global.BotName = "Jessi-Md";
+global.Owner = ["254716637803","254716637803"];         //If you want singal number so global.Owner = ['94779529221'] Change into your number.
+global.OwnerNumber = ["254716637803","94779529221"];   //If you want singal number so global.Owner = ['94779529221'] Change into your number.
+global.ownertag = ["254716637803"];
+global.OwnerName = "Ali";
+global.BotName = "savage md";
 global.packname = "Jessi-md bot";                             //Do not change.
 global.author = "By: Mr.White Shadow";                               //Do not change.
 global.BotSourceCode = "https://github.com/whiteshadowofficial/Jessi-md"; //Do not change.
@@ -107,18 +107,18 @@ global.ntilink = []
 //
 global.mess = {
     jobdone: 'Here you go...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Kick*!',
+    useradmin: 'Sorry, only *Group Admins* can use this command ,
     botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Kick!',
-    grouponly: 'This command is only made for *Groups*, Kick!',
-    privateonly: 'This command is only made for *Private Chat*, Kick!',
+    botowner: 'Only my *Owner* can use this command,
+    grouponly: 'This command is only made for *Groups*, 
+    privateonly: 'This command is only made for *Private Chat*,
     botonly: 'Only the *Bot itself* can use this command!',
     waiting: 'Just Wait...',
-    nolink: 'Please provide me *link*, Kick!',
+    nolink: 'Please provide me *link*',
     error: 'An error occurd!',
     banned: 'You are *Banned* fron using commands!',
     bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert Kick! This is not a NSFW enabled group!'
+    nonsfw: 'Dont be a pervert  This is not a NSFW enabled group!'
     
 }
 
