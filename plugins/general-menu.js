@@ -12,20 +12,23 @@ const defaultMenu = {
   before: `
 *⏱️ Jessi Md - bot_*
 
-
-*_あ Library : [ Baileys-MD ]_*
-*_あ Prefix : [ %_p ]_*
-*_あ Platform : [ %platform ]_*
-*_あ Uptime : [ %muptime ]_*
-*_あ Date : [ %date ]_*
-*_あ Database : [ %totalreg ]_*
+*♻️ Library : [ Baileys-MD ]_*
+*🕹 Prefix : [ %_p ]_*
+*💻Platform : [ %platform ]_*
+*⏲️ Uptime : [ %muptime ]_*
+*📆 Date : [ %date ]_*
+*📟 Database : [ %totalreg ]_*
 
 %readmore
 `.trimStart(),
-  header: '╭┉┉┉≻ *“%category”* ≺┉┉┉',
-  body: `┆ \t ➦ _%cmd%islimit%isPremium_ `,
-  footer: '┆',
-  after: `╰┉┉┉≻\t _© ${conn.user.name}_ \t`,
+  header: `
+╭───────────╮
+│   %category  
+╰───────────╯
+    `.trimStart(),
+  body: `│ \t ➦ _%cmd%islimit%isPremium_ `,
+  footer: '│',
+  after: `╰───────────\t _© ${conn.user.name}_ \t`,
 }
   try {
     let name = m.pushName || conn.getName(m.sender)
