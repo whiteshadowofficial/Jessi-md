@@ -2,10 +2,20 @@
 <img src="https://telegra.ph/file/57e0679dc28177770f449.jpg" alt="nz" width="350"/>
 </p>
 
-## MS.JESSICA
+### MS.JESSICA
 
-> Bot Written By @Mr.White Shadow with Baileys. Jessi has a lot of Features/Commands Including Voice Chat [ AI ]
-.
+
+- ✔️ | **Simple**
+- ✔️ | **No Button**
+- ✔️ | **Multi Device**
+- ✔️ | **Plugins**
+  
+
+---------
+## NOTE: THIS BOT IS [ESM](https://nodejs.org/api/esm.html) BOT
+> I opened discussiond for asking any problem or new feature, if i agree with that i will invite you in my repo/pull request your idea in this source code :)
+---------
+
 
 
 ![forks](https://img.shields.io/github/forks/whiteshadowofficial/Jessi-md?label=Forks&style=social)
