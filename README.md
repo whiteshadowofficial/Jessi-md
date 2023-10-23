@@ -72,7 +72,7 @@ node . --server
 
 ```bash
 git clone https://github.com/whiteshadowofficial/Jessi-md
-cd zoromd
+cd jessi-md
 npm install
 ```
 
