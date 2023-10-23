@@ -17,44 +17,64 @@
 ----
 
 
-### ⏱️ Jessi-md Installation 
+### ⏱️ Installation
 
-Qr Setup
+### Deploy to heroku
 
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/create.md"><img src="https://img.shields.io/badge/Setup-Qr-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
-
-💥 Select one of the following to deploy the bot.
-
-💫 Heroku
-
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/heroku.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+ Fork the repo
+ 
+ <a href='https://github.com/whiteshadowofficial/Jessi-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/fork repo-000?style=for-the-badge&logo=github&logoColor=white'/></a>
 
 
-💫 Mogenius
+### Deploy to Replit
+[![Run on Repl.it](https://repl.it/badge/github/whiteshadowofficial/Jessi-md)](https://repl.it/github/whiteshadowofficial/Jessi-md)
 
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/main/mogenius.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
+Language Search/Type `nix Bash` Don't nodejs
 
-💫 Codespaces 
+add forget [uptimerobot click](https://uptimerobot.com)
 
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/codespaces.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
-
-💫 Termux
-
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/termux.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
-
-💫 Windows Cmd & Vs
-
-<a href="https://github.com/whiteshadowofficial/Jessi-md/blob/master/windows.md"><img src="https://img.shields.io/badge/Deploy-jessi md-ff0000?style=for-the-badge&logo=github&logoColor=ff000000&link=https://youtube.com/channel/UCKW8EUxAo6A7RKhc35H54wg" /><br>
-
-
-
-
-
-## Command For 24/7 🔷🔋
-```js
-npm i -g forever && forever index.js && forever save && forever logs
+### RUN ON REPLIT
+1. Visit the web [this](https://replit.com)
+2. Login or register
+3. Press Create Repl
+4. Press `import for github`
+5. Search for this Repo or type in `whiteshadowofficial/Jessi-md`
+6. Language Search/Type `nix Bash` Don't nodejs
+7. Press `Import from Github`
+8. Edit `config.js` replace the owner number with another number or edit
+9. Swipe Right from the post `Shell` then click
+10. type `npm install` to install modules
+11. Wait until the module install process is complete
+12. Run the Bot by typing this
+13. add forget [uptimerobot click](https://uptimerobot.com)
+```bash
+node . --server
 ```
 
+---------
+
+## FOR WINDOWS/VPS/RDP USER
+
+* Download And Install Git [`Click Here`](https://git-scm.com/downloads)
+* Download And Install NodeJS [`Click Here`](https://nodejs.org/en/download)
+* Download And Install FFmpeg [`Click Here`](https://ffmpeg.org/download.html) (**Don't Forget Add FFmpeg to PATH enviroment variables**)
+* Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
+
+```bash
+git clone https://github.com/whiteshadowofficial/Jessi-md
+cd zoromd
+npm install
+```
+
+---------
+
+  
+ ```bash
+ 𝐀𝐮𝐭𝐡𝐨𝐫 : White Shadow ofc
+ 𝐖𝐚 : +94779529221
+ 𝐛𝐚𝐬𝐞 : Narutomo and BochilGaming and Rlxfly
+ 𝐌𝐲 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 : 6 may 2020
+ ```
 
 ### 🔒 What about our security?
 
