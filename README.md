@@ -17,15 +17,11 @@
 ---------
 
 
-
-![forks](https://img.shields.io/github/forks/whiteshadowofficial/Jessi-md?label=Forks&style=social)
-
-![stars](https://img.shields.io/github/stars/whiteshadowofficial/Jessi-md?style=social)
+![forks](https://img.shields.io/github/forks/whiteshadowofficial/Jessi-md?label=Forks&style=social)  ![stars](https://img.shields.io/github/stars/whiteshadowofficial/Jessi-md?style=social)
 
 <br>
 
 ----
-
 
 ### ⏱️ Installation
 
@@ -98,30 +94,7 @@ npm install
 
 ---------
 
-### 🔒 What about our security?
 
-If you are concerned about security, you can install it on your own computer. If you think someone else has captured your data, simply click on **Whatsapp> Three Dots> Whatsapp Web> Logout** from all sessions button
-
-
-**As per the license, You Can** But We Will Not Support. 🙃
-
-### ❔ How many features/commands are there in this bot?
-
-There are **350+** Features/Commands Are there in **this bot!**
-
-
-
-## 💗 Credit 💗
- 
-----
-[![MrChaby](https://github.com/MrChaby.png?size=100)](https://github.com/MrChaby) 
-----
-[MrChaby](https://github.com/MrChaby)
-----
-
-> All photos and names of this project are owned by the first owner.
-----
-> This project was prepared with all his approval.
 ## 👨‍💻 Developers & Contributors 👨‍💻
 
 ## Developers
