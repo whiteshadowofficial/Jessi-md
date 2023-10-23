@@ -1,9 +1,11 @@
 { pkgs }: {
-	deps = [
-		pkgs.nano
-  pkgs.nodejs-18_x
-    pkgs.nodePackages.typescript-language-server
-    pkgs.yarn
-    pkgs.replitPackages.jest
-	];
+deps = [
+    pkgs.nodejs_20
+    pkgs.neofetch
+    pkgs.imagemagick
+    pkgs.speedtest-cli
+    pkgs.jellyfin-ffmpeg
+    pkgs.git
+    pkgs.python311Packages.python
+];
 }

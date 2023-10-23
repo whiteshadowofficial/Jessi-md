@@ -1,141 +1,97 @@
-/*
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░██░░███████░░███████░░███████░░██░
-░░░░██░░███████░░███████░░███████░░██░
-░░░░██░░██╝░░░░░░██╝░╚██░░██╝░╚██░░░░░
-░░░░██░░██╗░░░░░░██╗░░░░░░██╗░░░░░░██░
-░░░░██░░███████░░███████░░███████░░██░
-░░░░██░░███████░░███████░░███████░░██░
-░░░░██░░██╝░░░░░░░░░░╚██░░░░░░╚██░░██░
-░░░░██░░██╗░░░░░░██╗░╔██░░██╗░╔██░░██░
-██╗╔██░░███████░░███████░░███████░░██░
-░╚██╝░░░███████░░███████░░███████░░██░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-███░░░░░░░░███░░░░░░████╗░░░░░░░░░░░░░
-███╗░░░░░░╔███░░░░░░██╝╚██╗░░░░░░░░░░░
-██╚██╗░░╔██╝██░░░░░░██░░╚██░░░░░░░░░░░
-██░╚██╗╔██╝░██░░░░░░██░░░██░░░░░░░░░░░
-██░░░╚██╝░░░██░░░░░░██░░░██░░░░░░░░░░░
-██░░░░░░░░░░██░░░░░░██░░╔██░░░░░░░░░░░
-██░░░░░░░░░░██░░░░░░██╗╔██╝░░░░░░░░░░░
-██░░░░░░░░░░██░░░░░░████╝░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+import chalk from 'chalk'
+import { fileURLToPath } from 'url'
+import { watchFile, unwatchFile, readFileSync } from 'fs'
 
-Copyright (C) 2021 Mr.White Shadow.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-*/
+global.owner = 
+ [
+  ['+94779529221', 'Mr.White Shadow', true]
+]
+// Put your number here
+// [number, he creator/owner?, he developer?]
 
-const fs = require("fs");
-const chalk = require("chalk");
+global.mods = [] // Want some help?
+global.prems = [] // Premium user has unlimited limit
 
+// api key here okay
+global.xyro = 'LyrK9JMI7N' // https://api.xyroinee.xyz free limit unlimited
+global.apilol = 'GataDios' // https://api.lolhuman.xyz free limit unlimited by @BrunoSobrino
 
-//
-global.available = true;
-global.autoReadGc = false;
-global.autoReadAll = false;
-global.antitags = true;
-
-
-//auto functioner
-global.autoTyping = false;                //auto tying by default off.
-global.autoRecord = false;                //auto recording by default off.
-global.groupevent = false;                //This is the new variable for controlling group event handling.
-global.statusseen = true;                 //This is the new variable for controlling status seen.
-
-
-//
-global.Owner = ["94779529221","94757534153"];         //If you want singal number so global.Owner = ['94779529221'] Change into your number.
-global.OwnerNumber = ["94757534153","94779529221"];   //If you want singal number so global.Owner = ['94779529221'] Change into your number.
-global.ownertag = ["94779529221"];
-global.OwnerName = "Mr.White Shadow";
-global.BotName = "Jessi-Md";
-global.packname = "Jessi-md bot";                             //Do not change.
-global.author = "By: Mr.White Shadow";                               //Do not change.
-global.BotSourceCode = "https://github.com/whiteshadowofficial/Jessi-md"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/I1uZccqxoqx5sOPrYHsbyc"; 
-
-
-//
-global.sessionName = "session";                          //Do not change.
-
-
-//
-global.prefa = ["."];                                    //Default prefix here.
-global.openAiAPI = "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";
-
-
-//
-global.location = "Dhaka, Bangladesh";                   
-global.reactmoji = "✅";
-global.themeemoji = "💖";
-global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
-global.websitex = "https://github.com/whiteshadowofficial";
-global.lolhuman = "KaysaS";
-
-
-//
-global.BotLogo = fs.readFileSync("./Assets/pic1.jpg");
-global.Thumb = fs.readFileSync("./Assets/pic9.jpg");
-global.Thumb1 = fs.readFileSync("./Assets/pic5.jpg");
-global.ErrorPic = fs.readFileSync("./Assets/pic7.jpg");
-
-
-//
-global.ntilinkytvid = []
-global.ntilinkytch = []
-global.ntilinkig = []
-global.ntilinkfb = []
-global.ntilinktg = []
-global.ntilinktt = []
-global.ntilinktwt = []
-global.ntilinkall = []
-global.nticall = []
-global.ntwame = []
-global.nttoxic = []
-global.ntnsfw = []
-global.ntvirtex = []
-global.rkyt = []
-global.wlcm = []
-global.gcrevoke = []
-global.autorep = []
-global.ntilink = []
-
-
-//
-global.mess = {
-    jobdone: 'Here you go...',
-    useradmin: 'Sorry, only *Group Admins* can use this command *Kick*!',
-    botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-    botowner: 'Only my *Owner* can use this command, Kick!',
-    grouponly: 'This command is only made for *Groups*, Kick!',
-    privateonly: 'This command is only made for *Private Chat*, Kick!',
-    botonly: 'Only the *Bot itself* can use this command!',
-    waiting: 'Just Wait...',
-    nolink: 'Please provide me *link*, Kick!',
-    error: 'An error occurd!',
-    banned: 'You are *Banned* fron using commands!',
-    bangc: 'This Group is *Banned* from using Commands!',
-    nonsfw: 'Dont be a pervert Kick! This is not a NSFW enabled group!'
-    
+global.APIs = { // API Prefix
+  // name: 'https://website'
+  nrtm: 'https://nurutomo.herokuapp.com',
+  xteam: 'https://api.xteam.xyz'
+}
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
+  'https://api.xteam.xyz': 'd90a9e986e18778b'
 }
 
-global.limitawal = {
-  premium: "Infinity",
-  free: 2,
-  monayawal: 1000,
-};
+ global.thumbnailUrl = [
+  'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg', 'https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
+  'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg', 'https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
+  'https://telegra.ph/file/7d6c0e35f9c8f52715541.jpg', 'https://telegra.ph/file/ef4b742d47e6a9115e2ff.jpg',
+  'https://telegra.ph/file/55e5af5f33fbd57104187.jpg', 'https://telegra.ph/file/af236598456b95884bd15.jpg',
+  'https://telegra.ph/file/de92ed4a729887ffc974c.jpg', 'https://telegra.ph/file/00ce42a193b1dbbf907d4.jpg'
+]
 
-global.limitawal = {
-  rakyat: "Infinity",
-  free: 100,
-};
+// Sticker WM
+global.packname = `「 Cʀᴇᴀᴛᴇᴅ Bʏ ᴍʀ.ᴡʜɪᴛᴇ ꜱʜᴀᴅᴏᴡ 」`
+global.author = ''
+global.thumb = readFileSync('./me.png')
+global.thumb2 = readFileSync('./me2.jpeg')
+global.multiplier = 69 // The higher, The harder levelup
 
-global.APIs = {
-  zenz: "https://zenzapis.xyz",
-};
-global.APIKeys = {
-  "https://zenzapis.xyz": "5d1197db351b",
-};
+//Text here
+global.me = 'Cʀᴇᴀᴛᴇᴅ Bʏ ᴍʀ.ᴡʜɪᴛᴇ ꜱʜᴀᴅᴏᴡ - 2023'
+global.bott = 'Jessi-md'
+global.nomorown = '94779529221'
+// owner put this creator.js
+global.str = '-------------'
+global.l = '「'
+global.r = '」'
+global.wait = '```「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ...```'
+global.eror = '```404 ᴇʀʀᴏʀ```'
+
+global.rpg = {
+  emoticon(string) {
+    string = string.toLowerCase()
+    let emot = {
+      level: '🧬',
+      limit: '🌌',
+      health: '❤️',
+      exp: '✉️',
+      money: '💵',
+      potion: '🥤',
+      diamond: '💎',
+      common: '📦',
+      uncommon: '🎁',
+      mythic: '🗳️',
+      legendary: '🗃️',
+      pet: '🎁',
+      trash: '🗑',
+      armor: '🥼',
+      sword: '⚔️',
+      wood: '🪵',
+      rock: '🪨',
+      string: '🕸️',
+      horse: '🐎',
+      cat: '🐈',
+      dog: '🐕',
+      fox: '🦊',
+      petFood: '🍖',
+      iron: '⛓️',
+      gold: '👑',
+      emerald: '💚'
+    }
+    let results = Object.keys(emot).map(v => [v, new RegExp(v, 'gi')]).filter(v => v[1].test(string))
+    if (!results.length) return ''
+    else return emot[results[0][0]]
+  }
+}
+
+let file = fileURLToPath(import.meta.url)
+watchFile(file, () => {
+  unwatchFile(file)
+  console.log(chalk.cyanBright("Update 'config.js'"))
+  import(`${file}?update=${Date.now()}`)
+})
