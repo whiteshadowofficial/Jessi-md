@@ -93,6 +93,19 @@ npm install
 ---------
 
 
+## ```Thanks to ✨```
+* [`Me`]
+* [`My parents`]
+* [`All Friends`]
+* [`All Contributors`]
+* [`All Creator Bot`]
+* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
+* [`Whiskeysockets/Baileys`](https://github.com/WhiskeySockets/Baileys)
+* [`Nurutomo`](https://github.com/Nurutomo)
+* [`BochilGaming`](https://github.com/bochilgaming)
+* [`Fokus ID`](https://github.com/Fokusdotid)
+* [`Mr.White Shadow`](https://github.com/whiteshadowofficial)
+
 ## 👨‍💻 Developers & Contributors 👨‍💻
 
 ## Developers
@@ -109,15 +122,10 @@ Bug Fixes, Modules | Code Owner,Base | Bug Fixes, Modules
 Modifiying  as   public | Modifiying  as   public | Help To Me
 
 
-## Thanks To
-* [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
-* [`Mr.White Shadow`](https://github.com/whiteshadowofficial)
-
 
 ## ⚠ Warning ⚠
 
-```
-By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
+```By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
 Jessi or we are not responsible for your account, 
 This bot is intended for the purpose of having fun with some fun commands 
 and group management with some helpfull commands.
@@ -128,8 +136,7 @@ and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
 No personal support will be provided / We won't spoon feed you. 
 If you need help ask in our support group 
-and we will try to help you.
-```
+and we will try to help you.```
   
 > License: [MIT](https://github.com/whiteshadowofficial/LICENSE)
 
