@@ -2,7 +2,7 @@
 <img src="https://telegra.ph/file/efd56abf473f60eccb40f.jpg" alt="nz" width="1280"/>
 </p>
 
-### MS.JESSICA
+### MS.JESSICA MULTI DEVICE
 
 
 - ✔️ | **Simple**
