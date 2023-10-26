@@ -69,7 +69,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 handler.help = ['video <url>']
 handler.tags = ['downloader']
-handler.command = /^(yt(v(ideo)?|mp4))$/i
+handler.command = /^(video|ytmp4|\?)$/i
 
 export default handler
 
