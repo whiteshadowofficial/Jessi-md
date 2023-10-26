@@ -19,11 +19,37 @@ global.apilol = 'GataDios' // https://api.lolhuman.xyz free limit unlimited by @
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  zeks: 'https://api.zeks.xyz',
+  pencarikode: 'https://pencarikode.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
+  violetics: 'https://violetics.pw',
+  rrul: 'https://api-rull.herokuapp.com',
+  hadi: 'http://hadi-api.herokuapp.com',
+  nzcha: 'http://nzcha-apii.herokuapp.com',
+  bg: 'http://bochil.ddns.net',
+  td: 'https://api-toxic-devil.herokuapp.com/api',
+  fdci: 'https://api.fdci.se',
+  skh: 'https://sekha.me',
+  dzx: 'https://api.dhamzxploit.my.id',
+  hardianto: 'http://hardianto.xyz',
+  adiisus: 'https://adiixyzapi.herokuapp.com',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com'
   xteam: 'https://api.xteam.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b'
+  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://api.zeks.xyz': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll',
+  'https://violetics.pw': 'beta',
+  'https://sekha.me': 'apirey',
+  'https://api.chipa.xyz': 'pais',
+  'http://hardianto.xyz': 'hardianto',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 
  global.thumbnailUrl = [
