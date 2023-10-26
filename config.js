@@ -35,7 +35,7 @@ global.APIs = { // API Prefix
   dzx: 'https://api.dhamzxploit.my.id',
   hardianto: 'http://hardianto.xyz',
   adiisus: 'https://adiixyzapi.herokuapp.com',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com'
+  LeysCoder: 'https://leyscoders-api.herokuapp.com',
   xteam: 'https://api.xteam.xyz'
 }
 global.APIKeys = { // APIKey Here
