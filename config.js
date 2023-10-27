@@ -13,9 +13,8 @@ global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 
 // api key here okay
-global.xyro = 'LyrK9JMI7N' // https://api.xyroinee.xyz free limit unlimited
-global.apilol = 'GataDios' // https://api.lolhuman.xyz free limit unlimited by @BrunoSobrino
-
+global.xyro = 'LyrK9JMI7N' 
+global.apilol = 'GataDios' 
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -67,9 +66,6 @@ global.thumb = readFileSync('./me.png')
 global.thumb2 = readFileSync('./me2.jpeg')
 global.multiplier = 69 // The higher, The harder levelup
 
-//+18 
-global.nwait = '⏱️'
-global.dwait = '🤤'
 //Text here
 global.me = 'Cʀᴇᴀᴛᴇᴅ Bʏ ᴍʀ.ᴡʜɪᴛᴇ ꜱʜᴀᴅᴏᴡ - 2023'
 global.bott = 'Jessi-md'
@@ -78,6 +74,12 @@ global.nomorown = '94779529221'
 global.str = '-------------'
 global.l = '「'
 global.r = '」'
+global.mwait = '⏱️'
+global.nwait = '🤤'
+global.owait = '💥'
+global.pwait = '⏱️'
+global.qwait = '😩'
+global.rwait = '⏱️'
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ...```'
 global.eror = '```404 ᴇʀʀᴏʀ```'
 
