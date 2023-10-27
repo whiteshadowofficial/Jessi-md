@@ -68,7 +68,8 @@ global.thumb2 = readFileSync('./me2.jpeg')
 global.multiplier = 69 // The higher, The harder levelup
 
 //+18 
-global.nwait = '🤤'
+global.nwait = '⏱️'
+global.dwait = '🤤'
 //Text here
 global.me = 'Cʀᴇᴀᴛᴇᴅ Bʏ ᴍʀ.ᴡʜɪᴛᴇ ꜱʜᴀᴅᴏᴡ - 2023'
 global.bott = 'Jessi-md'
