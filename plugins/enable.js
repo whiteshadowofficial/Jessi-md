@@ -27,6 +27,16 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.delete = isEnable
       break
+    case 'nsfw':
+      case '+18':
+       if (m.isGroup) {
+         if (!(isAdmin || isOwner)) {
+           global.dfail('admin', m, conn)
+            throw false
+           }
+        }
+    chat.nsfw = isEnable          
+    break
     case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
