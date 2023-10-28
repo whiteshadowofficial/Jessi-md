@@ -33,7 +33,7 @@
 ### Deploy to Replit
 [![Run on Repl.it](https://repl.it/badge/github/whiteshadowofficial/Jessi-md)](https://repl.it/github/whiteshadowofficial/Jessi-md)
 
-Language Search/Type `nix Bash` Don't nodejs
+Language Search/Type ` nodejs `
 
 add forget [uptimerobot click](https://uptimerobot.com)
 
