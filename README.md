@@ -12,7 +12,6 @@
   
 
 ---------
-## NOTE: THIS BOT IS [ESM](https://nodejs.org/api/esm.html) BOT
 > I opened discussiond for asking any problem or new feature, if i agree with that i will invite you in my repo/pull request your idea in this source code :) [Whatsapp Group](https://chat.whatsapp.com/I1uZccqxoqx5sOPrYHsbyc)
 
 
