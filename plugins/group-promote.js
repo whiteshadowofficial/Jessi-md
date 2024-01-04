@@ -1,20 +1,23 @@
-let handler = async (m, { conn }) => {
-	let who = m.quoted ? m.quoted.sender : m.mentionedJid ? m.mentionedJid[0] : ''
-	if (!who || who.includes(conn.user.jid)) throw `*quote / @tag* one or other !`
-	try {
-		await conn.groupParticipantsUpdate(m.chat, [who], 'promote')
-    m.reply('Succes promote')
-	} catch (e) {
-		console.log(e)
-	}
-}
+import { areJidsSameUser } from '@adiwajshing/baileys'
+let handler = async (m, { conn, participants }) => {
+    let users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
+    let promoteUser = []
+    for (let user of users)
+        if (user.endsWith('@s.whatsapp.net') && !(participants.find(v => areJidsSameUser(v.id, user)) || { admin: true }).admin) {
+            const res = await conn.groupParticipantsUpdate(m.chat, [user], 'promote')
+            await delay(1 * 1000)
+        }
+    m.reply('Succes')
 
-handler.menugroup = ['promote @tag']
-handler.tagsgroup = ['group']
+}
+handler.help = ['promote @tag']
+handler.tags = ['group']
 handler.command = /^(promote)$/i
 
 handler.admin = true
-handler.botAdmin = true
 handler.group = true
+handler.botAdmin = true
 
 export default handler
+
+const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))

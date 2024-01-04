@@ -28,15 +28,47 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.delete = isEnable
       break
     case 'nsfw':
-      case '+18':
+        if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }}
+      chat.nsfw = isEnable
+      break
+      case 'premnsfwchat':
+        if (m.isGroup) {
+        if (!isROwner) {
+          global.dfail('rowner', m, conn)
+          throw false
+        }}
+      chat.premnsfw = isEnable
+      break
+      case 'autoSticker':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.autoSticker = isEnable
+      break
+      case 'antispam':
        if (m.isGroup) {
          if (!(isAdmin || isOwner)) {
            global.dfail('admin', m, conn)
-            throw false
-           }
-        }
-    chat.nsfw = isEnable          
-    break
+           throw false
+         }
+       }
+       chat.antiSpam = isEnable
+       break
+       case 'anticall':
+       isAll = true
+         if (!isOwner) {
+           global.dfail('rowner', m, conn)
+           throw false
+       }
+       chat.anticall = isEnable
+       break
     case 'antidelete':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
