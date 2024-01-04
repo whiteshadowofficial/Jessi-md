@@ -13,6 +13,8 @@ global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 
 // api key here okay
+global.lolkey = 'apikeymu'
+global.xkey = 'APIKEYMU'
 global.xyro = 'LyrK9JMI7N' 
 global.apilol = 'GataDios' 
 global.APIs = { // API Prefix
@@ -61,6 +63,8 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.packname = `「 Cʀᴇᴀᴛᴇᴅ Bʏ ᴍʀ.ᴡʜɪᴛᴇ ꜱʜᴀᴅᴏᴡ 」`
+global.botdate = `⫹⫺ Day`
+global.bottime = `ᴛɪᴍᴇ:`
 global.author = ''
 global.thumb = readFileSync('./me.png')
 global.thumb2 = readFileSync('./me2.jpeg')
@@ -79,6 +83,7 @@ global.nwait = '🤤'
 global.owait = '💥'
 global.pwait = '⏱️'
 global.qwait = '😩'
+global.pwait = '⏱️'
 global.rwait = '⏱️'
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」ʟ ᴏ ᴀ ᴅ ɪ ɴ ɢ...```'
 global.eror = '```404 ᴇʀʀᴏʀ```'
