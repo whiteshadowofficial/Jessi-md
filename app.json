@@ -5,13 +5,6 @@
     "whatsapp bot",
     "nodejs"
   ],
-  "env": {
-    "SESSION_ID": {
-      "description": "Put your session id here",
-      "required": true,
-      "value": ""
-    }
-  },
   "repository": "https://github.com/whiteshadowofficial/Jessi-md",
     "buildpacks": [
     {

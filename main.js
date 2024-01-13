@@ -90,80 +90,55 @@ global.loadDatabase = async function loadDatabase() {
 }
 loadDatabase()
 
-async function main() {
-  const gandu = process.env.SESSION_ID; 
-  
-  if (!gandu) {
-    console.error("Environment variable not found.");
-    return;
-  }
-  try {
-    await lodushek(gandu); 
-    console.log("session completed.");
-  } catch (error) {
-    console.error("Error:", error);
-  }
-}
+global.authFile = `sessions`;
 
-main();
+const msgRetryCounterCache = new NodeCache()
+const msgRetryCounterMap = (MessageRetryMap) => { };
 
+const { state, saveState, saveCreds } = await useMultiFileAuthState(global.authFile);
+const { version } = await fetchLatestBaileysVersion();
 
-await delay(1000 * 10)
+const logger = Pino({
+    transport: {
+        target: 'pino-pretty',
+        optons: {
+            colorize: true,
+            levelFirst: true,
+            ignore: 'hostname',
+            translateTime: true 
+        }
+    }
+}).child({ class: 'baileys'})
 
-const useStore = !process.argv.includes('--use-store')
-
-const store = useStore ? makeInMemoryStore({ level: 'silent' }) : undefined
-
-store?.readFromFile('./jessi-database.json')
-// save every 10s
-setInterval(() => {
-	store?.writeToFile('./jessi-database.json')
-}, 10_000)
-
-const { version, isLatest} = await fetchLatestBaileysVersion()
-const { state, saveCreds } = await useMultiFileAuthState('./sessions')
 const connectionOptions = {
-        version,
-        logger: pino({ level: 'silent' }), 
-        printQRInTerminal: true, 
-        browser: ['Jessi-md', 'Safari', '3.1.0'],
-        auth: { 
-         creds: state.creds, 
-         keys: makeCacheableSignalKeyStore(state.keys, pino().child({ 
-             level: 'silent', 
-             stream: 'store' 
-         })), 
-     },
-     getMessage: async key => {
-    		const messageData = await store.loadMessage(key.remoteJid, key.id);
-    		return messageData?.message || undefined;
-	},
-  generateHighQualityLinkPreview: true, 
-	      patchMessageBeforeSending: (message) => {
-                const requiresPatch = !!(
-                    message.buttonsMessage 
-                    || message.templateMessage
-                    || message.listMessage
-                );
-                if (requiresPatch) {
-                    message = {
-                        viewOnceMessage: {
-                            message: {
-                                messageContextInfo: {
-                                    deviceListMetadataVersion: 2,
-                                    deviceListMetadata: {},
-                                },
-                                ...message,
-                            },
-                        },
-                    };
-                }
+  printQRInTerminal: true,
+  patchMessageBeforeSending: (message) => {
+    const requiresPatch = !!( message.buttonsMessage || message.templateMessage || message.listMessage );
+    if (requiresPatch) {
+      message = {viewOnceMessage: {message: {messageContextInfo: {deviceListMetadataVersion: 2, deviceListMetadata: {}}, ...message}}};
+    }
+    return message;
+  },
+  getMessage: async (key) => {
+    if (store) {
+      const msg = await store.loadMessage(key.remoteJid, key.id);
+      return conn.chats[key.remoteJid] && conn.chats[key.remoteJid].messages[key.id] ? conn.chats[key.remoteJid].messages[key.id].message : undefined;
+    }
+    return proto.Message.fromObject({});
+  },
+  msgRetryCounterMap,
+  logger: Pino({level: 'silent'}),
+  auth: {
+    creds: state.creds,
+    keys: makeCacheableSignalKeyStore(state.keys, Pino({level: 'silent'})),
+  },
+  browser: ['Chrome (Jessi-md)'],
+  version,
+  downloadHistory: false,
+  defaultQueryTimeoutMs: undefined,
+};
 
-                return message;
-            }
-}
-
-global.conn = makeWASocket(connectionOptions)
+global.conn = makeWaSocket(connectionOptions)
 conn.isInit = false
 
 conn.logger.info(`W A I T I N G\n`);
