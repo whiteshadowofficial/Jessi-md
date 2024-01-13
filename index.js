@@ -1,15 +1,24 @@
-console.log('Starting Bot...')
 
-import yargs from 'yargs'; import cfonts from 'cfonts'; import { fileURLToPath } from 'url'; import { join, dirname } from 'path'; import { createRequire } from 'module'; import { createInterface } from 'readline'; import { setupMaster, fork } from 'cluster'; import { watchFile, unwatchFile } from 'fs';
+console.log('🐾 Starting...')
+
+import yargs from 'yargs'
+import cfonts from 'cfonts'
+import { fileURLToPath } from 'url'
+import { join, dirname } from 'path'
+import { createRequire } from 'module'
+import { createInterface } from 'readline'
+import { setupMaster, fork } from 'cluster'
+import { watchFile, unwatchFile } from 'fs'
 
 // https://stackoverflow.com/a/50052194
 const { say } = cfonts
 const rl = createInterface(process.stdin, process.stdout)
 const __dirname = dirname(fileURLToPath(import.meta.url))
-const require = createRequire(__dirname)
+const require = createRequire(__dirname) // Bring in the ability to create the 'require' method
+const { name, author } = require(join(__dirname, './package.json')) // https://www.stefanjudis.com/snippets/how-to-import-json-files-in-es-modules-node-js/
 
-say('Jessi\nWhatsApp Bot MD', { font: 'chrome', align: 'center', gradient: ['red', 'magenta'] })
-say('Bot created by White Shadow', { font: 'console', align: 'center', gradient: ['red', 'magenta'] })
+say('Lightweight\nWhatsApp Bot', { font: 'chrome', align: 'center', gradient: ['red', 'magenta'] })
+say(`'${name}' By @${author.name || author}`, { font: 'console', align: 'center', gradient: ['red', 'magenta'] })
 
 var isRunning = false
 /**
@@ -38,7 +47,7 @@ function start(file) {
   })
   p.on('exit', (_, code) => {
     isRunning = false
-    console.error('Exited with code:', code)
+    console.error('[❗]Exited with code:', code)
     if (code !== 0) return start(file)
     watchFile(args[0], () => {
       unwatchFile(args[0])
