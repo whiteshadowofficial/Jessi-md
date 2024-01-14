@@ -25,7 +25,7 @@
 ## Scan QR Here
 
 
- <a href='https://replit.com/@Kaweeshachamodk/Jessi-PairCode?v=1' target="_blank"><img alt='Scan Qr' src='https://img.shields.io/badge/fork repo-000?style=for-the-badge&logo=replit&logoColor=white'/></a>
+ <a href='https://replit.com/@Kaweeshachamodk/Jessi-PairCode?v=1' target="_blank"><img alt='Scan Qr' src='https://img.shields.io/badge/scan qr-000?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 Upload creds.json to > sessions folder in your forked repository 
 ---
@@ -36,7 +36,7 @@ Upload creds.json to > sessions folder in your forked repository
  
  <a href='https://github.com/whiteshadowofficial/Jessi-md/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/fork repo-000?style=for-the-badge&logo=github&logoColor=white'/></a>
  
- <a href='Heroku.com/deploy?template=https://github.com/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Deploy Heroku' src='https://img.shields.io/badge/fork repo-000?style=for-the-badge&logo=heroku&logoColor=white'/></a>
+ <a href='Heroku.com/deploy?template=https://github.com/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Deploy Heroku' src='https://img.shields.io/badge/deploy heroku-000?style=for-the-badge&logo=heroku&logoColor=white'/></a>
  
 
 
