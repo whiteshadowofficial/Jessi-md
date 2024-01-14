@@ -22,6 +22,13 @@
 
 ### ⏱️ Installation
 
+## Scan QR Here
+
+<a href="https://anya-qr-teamolduser.koyeb.app/"><img src="./AnyaPikaMedia/HomeScreen/AnyaQRscan.png" align="center" width="90" /> </a>
+
+Upload creds.json to > sessions folder in your forked repository 
+---
+
 ### Deploy to heroku
 
  Fork the repo
