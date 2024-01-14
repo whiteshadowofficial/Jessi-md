@@ -43,28 +43,6 @@ Upload creds.json to > sessions folder in your forked repository
 ### Deploy to Replit
 [![Run on Repl.it](https://repl.it/badge/github/whiteshadowofficial/Jessi-md)](https://repl.it/github/whiteshadowofficial/Jessi-md)
 
-Language Search/Type ` nodejs `
-
-add forget [uptimerobot click](https://uptimerobot.com)
-
-### RUN ON REPLIT
-1. Visit the web [this](https://replit.com)
-2. Login or register
-3. Press Create Repl
-4. Press `import for github`
-5. Search for this Repo or type in `whiteshadowofficial/Jessi-md`
-6. Language Search/Type `nix Bash` Don't nodejs
-7. Press `Import from Github`
-8. Edit `config.js` replace the owner number with another number or edit
-9. Swipe Right from the post `Shell` then click
-10. type `npm install` to install modules
-11. Wait until the module install process is complete
-12. Run the Bot by typing this
-13. add forget [uptimerobot click](https://uptimerobot.com)
-```bash
-node . --server
-```
-
 ---------
 
 ## FOR WINDOWS/VPS/RDP USER
