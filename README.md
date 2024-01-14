@@ -25,7 +25,7 @@
 ## Scan QR Here
 
 
- <a href='https://replit.com/@Kaweeshachamodk/Jessi-PairCode?v=1' target="_blank"><img alt='Scan Qr' src='https://img.shields.io/badge/scan qr-000?style=for-the-badge&logo=replit&logoColor=white'/></a>
+ <a href='https://replit.com/@Kaweeshachamodk/Jessi-md-Multi-PairCode' target="_blank"><img alt='Scan Qr' src='https://img.shields.io/badge/scan qr-000?style=for-the-badge&logo=replit&logoColor=white'/></a>
 
 Upload creds.json to > sessions folder in your forked repository 
 ---
