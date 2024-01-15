@@ -10,7 +10,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "main.js",
+        "start": "node index.js",
         "test": "node test.js",
         "test2": "nodemon index.js"
     },
