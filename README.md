@@ -39,9 +39,9 @@ Upload creds.json to > sessions folder in your forked repository
  <a href='Heroku.com/deploy?template=https://github.com/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Deploy Heroku' src='https://img.shields.io/badge/deploy heroku-000?style=for-the-badge&logo=heroku&logoColor=white'/></a>
  
 
-
 ### Deploy to Replit
-[![Run on Repl.it](https://repl.it/badge/github/whiteshadowofficial/Jessi-md)](https://repl.it/github/whiteshadowofficial/Jessi-md)
+
+ <a href='https://replit.com/github/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Run Replit' src='https://img.shields.io/badge/Run Replit-000?style=for-the-badge&logo=github&logoColor=white'/></a>
 
 ---------
 
