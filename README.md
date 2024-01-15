@@ -41,7 +41,7 @@ Upload creds.json to > sessions folder in your forked repository
 
 ### Deploy to Replit
 
- <a href='https://replit.com/github/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Run Replit' src='https://img.shields.io/badge/Run Replit-000?style=for-the-badge&logo=github&logoColor=white'/></a>
+ <a href='https://replit.com/github/whiteshadowofficial/Jessi-md' target="_blank"><img alt='Run Replit' src='https://img.shields.io/badge/Run Replit-000?style=for-the-badge&logo=Replit&logoColor=white'/></a>
 
 ---------
 
