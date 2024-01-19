@@ -1,27 +1,45 @@
-import cheerio from 'cheerio'
-import fetch from 'node-fetch'
+import { search, download } from 'aptoide-scraper';
+import axios from 'axios';
+import fs from 'fs';
+
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-	if (!args[0]) throw `Ex: ${usedPrefix + command} https://play.google.com/store/apps/details?id=com.linecorp.LGGRTHN`
-	let res = await apkDl(args[0])
-	await m.reply('_In progress, please wait..._')
-	conn.sendMessage(m.chat, { document: { url: res.download }, mimetype: res.mimetype, fileName: res.fileName }, { quoted: m })
-}
-handler.help = ['apkdl']
-handler.tags = ['downloader']
-handler.command = /^(apkdl)$/i
+    if (!args[0]) throw `Example: ${usedPrefix + command} <app name>`;
+    const appName = args.join(' ');
 
-export default handler
+    try {
+        const results = await search(appName);
+        if (results.length === 0) {
+            return conn.reply(m.chat, `No results found for ${appName}`, m);
+        }
 
-async function apkDl(url) {
-	let res = await fetch('https://apk.support/gapi/index.php', {
-		method: 'post',
-		body: new URLSearchParams(Object.entries({ x: 'downapk', t: 1, google_id: url, device_id: '', language: 'en-US', dpi: 480, gl: 'SUQ=', model: '', hl: 'en', de_av: '', aav: '', android_ver: 5.1, tbi: 'arm64-v8a', country: 0, gc: undefined }))
-	})
-	let $ = cheerio.load(await res.text())
-	let fileName = $('div.browser > div.dvContents > ul > li > a').text().trim().split(' ')[0]
-	let download = $('div.browser > div.dvContents > ul > li > a').attr('href')
-	if (!download) throw 'Can\'t download the apk!'
-	let mimetype = (await fetch(download, { method: 'head' })).headers.get('content-type')
-	return { fileName, mimetype, download }
-}
+        const appDetails = await download(results[0].id);
+        const url = appDetails.dllink;
+
+        const filePath = `./${appDetails.package}.apk`;
+        
+        const response = await axios.get(url, { responseType: 'stream' });
+
+        const writer = fs.createWriteStream(filePath);
+        response.data.pipe(writer);
+
+        await new Promise((resolve, reject) => {
+            writer.on('finish', resolve);
+            writer.on('error', reject);
+        });
+
+        conn.sendFile(m.chat, filePath, `${appDetails.package}.apk`, `Apk Name: ${appDetails.name}\nSize: ${appDetails.size}\nLast Update: ${appDetails.lastup}`, m);
+
+    } catch (error) {
+        console.error(error);
+        fs.unlinkSync(filePath); 
+        conn.reply(m.chat, 'Failed to download APK. Please try again later.', m); 
+      
+    }
+};
+
+handler.help = ['apk <app name>'];
+handler.tags = ['downloader'];
+handler.command = /^(apk)$/i;
+
+export default handler;
