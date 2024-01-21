@@ -52,7 +52,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.autoSticker = isEnable
       break
-      case 'antispam':
+      case 'autobio':
+      isAll = true
+        if (!isROwner) {
+         global.dfail('rowner', m, conn)
+         throw false
+       }
+       bot.autoBio = isEnable
+       break
+       case 'antispam':
        if (m.isGroup) {
          if (!(isAdmin || isOwner)) {
            global.dfail('admin', m, conn)
