@@ -1,11 +1,8 @@
-// Code by Xnuvers007
-// https://github.com/Xnuvers007/
-
 import { areJidsSameUser } from '@adiwajshing/baileys'
 
 let handler = async (m, { conn, participants, isAdmin }) => {
     if (!isAdmin) {
-        return m.reply('Perintah ini hanya dapat digunakan oleh admin grup')
+        return m.reply('*🚫Bot is not an admin of this group.*')
     }
 
     let users = m.mentionedJid.filter(u => !areJidsSameUser(u, conn.user.id))
@@ -16,7 +13,7 @@ let handler = async (m, { conn, participants, isAdmin }) => {
             kickedUser.concat(res)
             await delay(1 * 1000)
         }
-    m.reply(`Mampos Dikick Kau ${kickedUser.map(v => '@' + v.split('@')[0])}`, null, { mentions: kickedUser })
+    m.reply(`*🚫 Admin removed you from this group.* ${kickedUser.map(v => '@' + v.split('@')[0])}`, null, { mentions: kickedUser })
 }
 
 handler.help = ['kick'].map(v => v + ' @user')
