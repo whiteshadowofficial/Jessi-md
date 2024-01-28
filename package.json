@@ -95,6 +95,7 @@
         "terminal-image": "^2.0.0",
         "url-regex-safe": "^4.0.0",
         "wa-sticker-formatter": "^4.4.4",
+        "megajs": "^1.1.7",
         "yargs": "^17.7.2"
     }
 }
