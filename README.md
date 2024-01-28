@@ -1,5 +1,5 @@
  
-<img src="https://telegra.ph/file/efd56abf473f60eccb40f.jpg" alt="nz" width="1280"/>
+<img src="https://telegra.ph/file/3eb2954a6daa8d9f4fbb8.jpg" alt="nz" width="1280"/>
 </p>
 
 ### MS.JESSICA MULTI DEVICE
@@ -64,7 +64,6 @@ npm install
  ```bash
  𝐀𝐮𝐭𝐡𝐨𝐫 : White Shadow ofc
  𝐖𝐚 : +94779529221
- 𝐛𝐚𝐬𝐞 : Narutomo and BochilGaming and Rlxfly
  𝐌𝐲 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 : 6 may 2020
  ```
 
@@ -90,8 +89,6 @@ npm install
 * [`@adiwajshing/baileys`](https://github.com/adiwajshing/baileys)
 * [`Whiskeysockets/Baileys`](https://github.com/WhiskeySockets/Baileys)
 * [`Nurutomo`](https://github.com/Nurutomo)
-* [`BochilGaming`](https://github.com/bochilgaming)
-* [`Fokus ID`](https://github.com/Fokusdotid)
 * [`Mr.White Shadow`](https://github.com/whiteshadowofficial)
 
 ## 👨‍💻 Developers & Contributors 👨‍💻
