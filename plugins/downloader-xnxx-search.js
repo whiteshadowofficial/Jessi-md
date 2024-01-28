@@ -2,7 +2,7 @@ import { xvideosSearch, xvideosdl } from '../lib/scraper.js';
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let chat = global.db.data.chats[m.chat];
-  if (!chat.nsfw) throw `🚫 This group does not support NSFW content.\n\nTo use premium features contact admin or Register the bot .reg your-name.age`;
+  if (!chat.nsfw) throw `*🚫 To use premium features Register the bot .register your-name. age*`;
   let user = global.db.data.users[m.sender].age;
   if (user < 18) throw `❎ You must be 18 years or older to use this feature.`;
   if (!text) throw `✳️ What do you want to search?\n📌 Usage: *${usedPrefix + command} <search>*\n\nExample: Cute teen girl or you can use a link as well\nExample: .xvid link  *`;
