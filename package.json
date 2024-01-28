@@ -96,6 +96,7 @@
         "url-regex-safe": "^4.0.0",
         "wa-sticker-formatter": "^4.4.4",
         "megajs": "^1.1.7",
+        "google-play-scraper": "^8.1.0",
         "yargs": "^17.7.2"
     }
 }
