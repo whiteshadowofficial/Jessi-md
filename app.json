@@ -7,6 +7,14 @@
     "nodejs"
   ],
   "repository": "https://github.com/whiteshadowofficial/Jessi-md",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "your session id",
+      "required": true,
+      "value": ""
+    }
+    },
     "buildpacks": [
     {
       "url": "heroku/nodejs"
