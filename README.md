@@ -22,7 +22,7 @@
 
 ### ⏱️ Installation
 
- <a href='https://bit.ly/JessiPairCode' target="_blank"><img alt='Install bot' src='https://img.shields.io/badge/Install Bot-000?style=for-the-badge&logo=replit&logoColor=white'/></a>
+ <a href='https://bit.ly/JessiPairCode' target="_blank"><img alt='Install bot' src='https://img.shields.io/badge/Install Bot-000?style=for-the-badge&logo=vercal&logoColor=white'/></a>
 
 Upload creds.json to > sessions folder in your forked repository 
 ---
