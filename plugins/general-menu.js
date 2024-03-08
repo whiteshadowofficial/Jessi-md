@@ -10,25 +10,25 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 let tags = {}
 const defaultMenu = {
   before: `
-*⏱️ Jessi Md - bot_*
+> *💌 Jessi Multidevice Bot*
 
-*♻️ Library : [ Baileys-MD ]_*
-*🕹 Prefix : [ %_p ]_*
-*💻Platform : [ %platform ]_*
-*⏲️ Uptime : [ %muptime ]_*
-*📆 Date : [ %date ]_*
-*📟 Database : [ %totalreg ]_*
+> *📥 Version : [ 4.8.5 ]*
+> *♻️ Library : [ Baileys-MD ]*
+> *🕹 Prefix  : [ %_p ]*
+> *💻Platform : [ %platform ]*
+> *⏲️ Uptime  : [ %muptime ]*
+> *📆 Date    : [ %date ]*
+> *📟 Database : [ %totalreg ]*
 
 %readmore
 `.trimStart(),
   header: `
-╭───────────╮
-│   %category  
-╰───────────╯
-    `.trimStart(),
-  body: `│ \t ➦ _%cmd%islimit%isPremium_ `,
-  footer: '│',
-  after: `╰───────────\t _© ${conn.user.name}_ \t`,
+  *❐ %category*  
+
+`.trimStart(),
+  body: `> ➦ _%cmd%islimit%isPremium_ `,
+  footer: ' ',
+  after: `\t Develop by Jessi2Devolop Team \t`,
 }
   try {
     let name = m.pushName || conn.getName(m.sender)
