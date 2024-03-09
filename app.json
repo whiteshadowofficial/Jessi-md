@@ -1,20 +1,11 @@
 {
   "name": "Jessi-md",
   "description": "Whatsapp bot. recode by White Shadow Ofc",
-  "logo": "https://telegra.ph/file/3eb2954a6daa8d9f4fbb8.jpg",
   "keywords": [
     "whatsapp bot",
     "nodejs"
   ],
   "repository": "https://github.com/whiteshadowofficial/Jessi-md",
-  "stack": "container",
-  "env": {
-    "SESSION_ID": {
-      "description": "your session id",
-      "required": true,
-      "value": ""
-    }
-    },
     "buildpacks": [
     {
       "url": "heroku/nodejs"
