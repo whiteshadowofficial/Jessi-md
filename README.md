@@ -22,7 +22,7 @@
 
 ### ⏱️ Installation
 
- <a href='https://tinyurl.com/2bcwagf8' target="_blank"><img alt='Install bot' src='https://img.shields.io/badge/Install Bot-000?style=for-the-badge&logo=vercal&logoColor=white'/></a>
+ <a href='https://jessipair-75e8bcfb723f.herokuapp.com/' target="_blank"><img alt='Install bot' src='https://img.shields.io/badge/Install Bot-000?style=for-the-badge&logo=vercal&logoColor=white'/></a>
 
 Upload creds.json to > sessions folder in your forked repository 
 ---
