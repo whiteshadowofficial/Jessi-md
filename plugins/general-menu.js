@@ -12,7 +12,7 @@ const defaultMenu = {
   before: `
 > *💌 Jessi Multidevice Bot*
 
-> *📥 Version : [ 4.8.5 ]*
+> *📥 Version : [ 5.0.0 ]*
 > *♻️ Library : [ Baileys-MD ]*
 > *🕹 Prefix  : [ %_p ]*
 > *💻Platform : [ %platform ]*
